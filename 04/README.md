@@ -2,9 +2,13 @@
 
 |本期版本|上期版本
 |:---:|:---:|
-`Fri Oct 13 18:39:14 CST 2023` | 
+`Mon Mar 10 22:37:43 CST 2025` | `Fri Oct 13 18:39:14 CST 2023`
 
 ## 利用 Command line 來創建你的 RSpec 資料夾
+
+```bash
+rspec --init
+```
 
 ## spec_helper.rb
 

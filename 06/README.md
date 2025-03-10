@@ -2,12 +2,18 @@
 
 |本期版本|上期版本
 |:---:|:---:|
-`Fri Oct 13 20:31:37 CST 2023` | 
+`Mon Mar 10 22:50:22 CST 2025` | `Fri Oct 13 20:31:37 CST 2023`
 
 
 ## describe method
 
 * 主要在解釋我們要測試的主要目標是什麼？
+
+```ruby
+Rspec.describe 'Burger'
+# 而這邊也有一個 Ruby 小小的慣例，就是可以省略 ( ) 小括號，所以原本應該是這樣
+RSpec.describe('Burger')
+```
 
 ## it method
 

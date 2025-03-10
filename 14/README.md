@@ -2,7 +2,7 @@
 
 |本期版本|上期版本
 |:---:|:---:|
-`Fri Oct 13 22:51:23 CST 2023` |
+`Mon Mar 10 23:40:30 CST 2025` | `Fri Oct 13 22:51:23 CST 2023`
 
 ## Shared_examples
 
@@ -21,3 +21,5 @@ end
 
 include_context "common_burger"
 ```
+
+> 有沒有超方便的，但如果你要放在不同的檔案裡面，記得要 require 來做使用喔！
