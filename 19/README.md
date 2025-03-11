@@ -2,7 +2,7 @@
 
 |本期版本|上期版本
 |:---:|:---:|
-`Mon Jul 18 17:56:22 CST 2022` | `Tue Jul 12 21:42:24 CST 2022`
+`Tue Mar 11 14:01:11 CST 2025` | `Tue Jul 12 21:42:24 CST 2022`
 
 
 ## Double method
@@ -15,6 +15,7 @@ allow(basketball_player).to receive(:dunk).and_return("Ah!!!!")
 allow(basketball_player).to receive_messages(dunk: "Ah!!!!", shoot: "Goal!!!!")
 ```
 
+> 而是我們要被不同的類別所牽扯，導致我們需要 double 的幫忙
 
 然後我們在測試中期待這個物件會接收到這些方法～
 

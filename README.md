@@ -15,9 +15,14 @@
 * [Day 13 懶得想變數嗎？ RSpec 有提供你啦](./13/)
 * ~~[`Day 14 分享你的 Example！`](./14/)~~
 * ~~[`Day 15 Matcher 基礎三兄弟！`](./15/)~~
-* [Day 16 Matcher 介紹 (上)](./16/)
-* [Day 17 Matcher 介紹 (中)](./17/)
-* [Day 18 Matcher 介紹 (下)](./18/)
+* ~~[Day 16 Matcher 介紹 (上)](./16/)~~
+* ~~[Day 17 Matcher 介紹 (中)](./17/)~~
+* ~~[Day 18 Matcher 介紹 (下)](./18/)~~
+* ~~[Day 19 魁儡的 double object](./19/)~~
+* [`Day 20 真真假假的 Instance doubles`](./20/)
+* [`Day 21 Spies 間諜來襲！`](./21/)
+* ~~[`Day 22 rspec-rails 介紹！`](./22/)~~
+* [`Day 23 介紹 FactoryBot Rails 及設定`](./23/)
 
 ## Ref
 
