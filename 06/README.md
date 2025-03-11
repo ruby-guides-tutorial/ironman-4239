@@ -2,7 +2,7 @@
 
 |本期版本|上期版本
 |:---:|:---:|
-`Mon Mar 10 22:50:22 CST 2025` | `Fri Oct 13 20:31:37 CST 2023`
+`Tue Mar 11 11:13:37 CST 2025` | `Fri Oct 13 20:31:37 CST 2023`
 
 
 ## describe method
@@ -24,6 +24,8 @@ RSpec.describe('Burger')
 * `expect`: 針對你傳入的參數進行運算，並且回傳一個物件。
 * `to`: 需要接受一個叫做 matcher 的物件
 
+
+> 而 to 這個方法呢，簡單的來說就是比對這兩個物件的實體變數，回傳成功或是失敗
 
 ```ruby
 # expect(burger.type)

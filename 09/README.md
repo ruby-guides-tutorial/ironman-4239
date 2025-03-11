@@ -2,7 +2,7 @@
 
 |本期版本|上期版本
 |:---:|:---:|
-`Mon Mar 10 23:08:38 CST 2025` | `Fri Oct 13 20:41:46 CST 2023`
+`Tue Mar 11 11:31:19 CST 2025` | `Fri Oct 13 20:41:46 CST 2023`
 
 ## Before hooks
 
@@ -14,4 +14,8 @@
 before do
   @burger = Burger.new('Beef', 'Cheddar')
 end
+```
+
+```ruby
+expect(Burger.new('Beef', 'Cheddar').cheese).to eq('Cheddar')
 ```
