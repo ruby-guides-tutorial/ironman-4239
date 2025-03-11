@@ -2,12 +2,18 @@
 
 |本期版本|上期版本
 |:---:|:---:|
-`Mon Mar 10 23:38:47 CST 2025` | `Fri Oct 13 22:49:29 CST 2023`
+`Tue Mar 11 11:53:19 CST 2025` | `Fri Oct 13 22:49:29 CST 2023`
 
 ## Subject
 
+```ruby
+let(:subject) { Hash.new }
+```
+
 * **如果你的最上層 RSpec.describe 後方接的是類別，那 subject 就會依照這個類別的預設值去做 new 的動作**
 * 加上他和 let 一樣，在每一個 example 中都是獨立的，不會有污染物件的情形，可以放心的服用！
+
+
 
 ## 加入初始值的 Subject
 
